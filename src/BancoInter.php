@@ -608,7 +608,7 @@ class BancoInter
     {
         $url = "/cobranca/v2/boletos/webhook";
 
-        $params = new \stdClass();
+        $params = new \ctodobom\APInterPHP\StdSerializable();
 
         $params->webhookUrl = $webhookUrl;
 
